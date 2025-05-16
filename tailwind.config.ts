@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,31 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for our drug prevention app
+				"prevention": {
+					50: "#e6f5ff",
+					100: "#b3e0ff",
+					200: "#80ccff",
+					300: "#4db8ff",
+					400: "#1aa3ff",
+					500: "#0080e6",
+					600: "#0066b3",
+					700: "#004d80",
+					800: "#00334d",
+					900: "#001a26"
+				},
+				"health": {
+					50: "#eafaf5",
+					100: "#c6f1e4",
+					200: "#a2e9d2",
+					300: "#7ee0c0",
+					400: "#5ad7ae",
+					500: "#36ce9c",
+					600: "#2ba57d",
+					700: "#207c5e",
+					800: "#15523e",
+					900: "#0a291f"
 				}
 			},
 			borderRadius: {
